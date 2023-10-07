@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .navPost {
+    
+    height: 58px;
+    display: flex;
+    justify-content: space-around;
+
+   
+    border-bottom: 1px solid #f2f2f2;
+    
+    padding-left: 20px;
+  }
+  
+  .navLeftpost {
+    width: 17%;
+  
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .logo {
+    width: 70px;
+  }
+  .buttonPublish{
+    background-color: rgb(128, 183, 143);
+    color: black;
+    width: 120px;
+    height: 47px;
+    border-radius: 14px;
+    border-color:  rgb(128, 183, 143);
+    font-weight: 800;
+    margin-top: 20px;
+  }
+
+  .button_first{
+    padding-right: 807px;
+    margin-bottom: 30px;
+  }
+  
+ 
+ 
+  
+  .navRightpost {
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+  }
+  
+  .writeSpace {
+    padding-left: 10px;
+    align-items: center;
+    padding-top: 4px;
+  }
+  
+  .avatarProfile {
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+  }
+
+  
+  
+
+  .textArea{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center /*  */;
+    padding-top: 70px;
+    padding-left: 700px;
+   
+
+  }
+
+  #textPost::placeholder{
+    font-size: 24px;
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+
+  
+  #textTitlle::placeholder{
+    font-size: 42px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  
+  
+  
+  
